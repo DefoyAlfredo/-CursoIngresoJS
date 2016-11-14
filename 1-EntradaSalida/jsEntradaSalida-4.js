@@ -4,6 +4,10 @@
 */
 function Mostar()
 {
+	//id="FormIngreso"
+	//id="elNombre"
+	//error de escritura del promrt
+	var dat=prompt("ingrese dato");
 	
+	document.getElementById('elNombre'). value =dat ;
 }
-
