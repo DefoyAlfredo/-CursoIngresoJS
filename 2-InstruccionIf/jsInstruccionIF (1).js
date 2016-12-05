@@ -1,12 +1,14 @@
 function Mostrar()
 {
 //tomo la edad  
-var valor;
-valor=document.getElementById('edad').value;
+	var laEdad;
+	laEdad=document.getElementById('edad').value;
+	//funciona igual con o sin comillas:if (laEdad =="15")
 
-if (valor ==15)
-{alert("niña bonita");}
-
+		if (laEdad =="15")
+			{alert("niña bonita");
+			}
+				console.log("esto es un test y la edad es " + laEdad);
  
 
 

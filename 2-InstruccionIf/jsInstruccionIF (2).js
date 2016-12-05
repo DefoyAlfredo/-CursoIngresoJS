@@ -4,7 +4,7 @@ function Mostrar()
 
 var valor;
 valor=document.getElementById('edad').value;
-if (valor > 21)
+if (valor > 17)
 	{alert("usted es mayor de edad");}
 	else
 		{}
